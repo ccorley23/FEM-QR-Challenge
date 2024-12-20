@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+body {
+    font-family: 'Outfit', sans-serif;
+}
+img {
+    width: 100%;
+}
+/* QR Component Page */
+.qr-component {
+    background: var(--slate-300);
+    height: 100vh;
+    text-align: center;
+    /* Center QR Component */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* QR Component Content */
+.qr-component__content {
+    background: var(--white);
+    width: 320px;
+    border-radius: 10px;
+    padding: 16px 16px 40px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
+}
+/* QR Image */
+.qr-component__content img {
+    width: 288px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+/* QR Component Text (heading + description) */
+.qr-component__text {
+    padding: 0 16px;
+}
+/* QR Component Heading */
+.qr-component__header {
+    color: var(--slate-900);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+    height: 52px;
+}
+/* QR Component Description */
+.qr-component__description {
+    color: var(--slate-500);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+}
