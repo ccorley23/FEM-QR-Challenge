@@ -31,16 +31,18 @@ img {
 .qr-component__content {
     background: var(--white);
     width: 320px;
-    /* height: 499px; */
+    height: auto;
     border-radius: 20px;
     padding: 16px 16px 40px;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 /* QR Image */
 .qr-component__content img {
     width: 288px;
     border-radius: 10px;
-    margin-bottom: 24px;
 }
 /* QR Component Text (heading + description) */
 .qr-component__text {
