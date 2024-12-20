@@ -31,7 +31,7 @@ img {
 .qr-component__content {
     background: var(--white);
     width: 320px;
-    height: 499px;
+    /* height: 499px; */
     border-radius: 20px;
     padding: 16px 16px 40px;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
@@ -51,10 +51,9 @@ img {
     color: var(--slate-900);
     font-size: 22px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 120%;
     letter-spacing: 0px;
     margin-bottom: 16px;
-    height: 52px;
 }
 /* QR Component Description */
 .qr-component__description {
@@ -62,5 +61,5 @@ img {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.2px;
-    line-height: 1.4;
+    line-height: 140%;
 }
