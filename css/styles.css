@@ -31,7 +31,8 @@ img {
 .qr-component__content {
     background: var(--white);
     width: 320px;
-    border-radius: 10px;
+    height: 499px;
+    border-radius: 20px;
     padding: 16px 16px 40px;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
 }
